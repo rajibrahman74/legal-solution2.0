@@ -1,0 +1,180 @@
+/*
+    EB Garamondo font
+ */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter&family=Dancing+Script:wght@500&family=EB+Garamond:wght@600;700;800&family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner:wght@700&family=Inter&family=Lobster&family=Manrope:wght@400;500;600;700;800&family=Merriweather&family=Noto+Sans&family=Open+Sans&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,600;1,400;1,800&family=Poppins:wght@400;500&family=Roboto:wght@500&family=Splash&display=swap");
+
+/* 
+    Poopins font
+ */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter&family=Dancing+Script:wght@500&family=EB+Garamond:wght@600;700;800&family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner:wght@700&family=Inter&family=Lobster&family=Manrope:wght@400;500;600;700;800&family=Merriweather&family=Noto+Sans&family=Open+Sans&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,600;1,400;1,800&family=Poppins:wght@400;500&family=Roboto:wght@500&family=Splash&display=swap");
+
+/*
+    Common all styles
+ */
+
+body {
+  font-family: "Poppins";
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "EB Garamond";
+}
+
+.section-title,
+.card-title {
+  color: #414040;
+}
+
+.section-description,
+.card-description {
+  color: #707070;
+}
+
+/*
+    Hero section and navbar
+ */
+
+.nav-button {
+  background: #b68c5a;
+}
+
+.hero-section {
+  height: 95vh;
+  background-image: url("../images/banner.png"),
+    linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-section p {
+  color: #e7e7e7;
+}
+
+.hero-button {
+  padding: 12px 25px;
+  background: #b68c5a;
+}
+
+/*
+    Area section
+ */
+
+.area-section span {
+  height: 2rem;
+  width: 2rem;
+  background: #b68c5a;
+  cursor: pointer;
+}
+
+.area-section .card-container {
+  border: 1px solid #e7e7e7;
+  max-height: 28.75rem;
+  height: 100%;
+}
+
+.card-container:hover {
+  background: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
+}
+
+/*
+    Our clients reviwe
+ */
+
+.carousel-item-one {
+  background: url("../images/slider-1.jpg"), rgba(17, 17, 17, 0.8);
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.carousel-item-two {
+  background: url("../images/slider-2.jpg"), rgba(17, 17, 17, 0.8);
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.carousel-item-three {
+  background: url("../images/slider-3.jpg"), rgba(17, 17, 17, 0.8);
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-content img {
+  width: 70px;
+}
+
+.carousel-content p {
+  color: #f3f3f3;
+  font-size: 15px;
+}
+
+/*
+    Question and Answer section
+ */
+
+.question-section button {
+  color: #414040;
+}
+
+.question-section p {
+  color: #707070;
+}
+
+/*
+    Contact section
+ */
+
+.contact-content {
+  border: 1px solid #e7e7e7;
+}
+.contact-content:hover {
+  background: #f3f3f3;
+}
+
+.contact-content img {
+  width: 40px;
+  height: 40px;
+}
+
+.contact-form form .message {
+  padding-bottom: 163px;
+}
+
+form button {
+  background: #b68c5a;
+}
+
+/*
+    Footer section
+ */
+
+footer {
+  background: #111111;
+}
+
+footer p,
+a,
+small {
+  color: #cfcfcf;
+}
+
+footer form button {
+  background: #b68c5a;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: -8px;
+}
+
+footer form button i {
+  font-size: 1.3rem;
+}
